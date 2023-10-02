@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.workLightRed-bg {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.playSoftBlue-bg {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.studyLightRed-bg {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exerciseLimeGreen-bg {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.socialViolet-bg {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.selfCareSoftOrange-bg {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.m-tb-0,
+.m-tb-1,
+.m-tb-2 {
+  margin-top: -0.5rem;
+  margin-bottom: -2rem;
+}
+
+.m-tb-3 {
+  margin-top: 0;
+  margin-bottom: -1rem;
+}
+
+.m-tb-4 {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.m-tb-5 {
+  margin-top: -0.5rem;
+  margin-bottom: -1rem;
+}
